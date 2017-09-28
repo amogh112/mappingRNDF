@@ -1,0 +1,10 @@
+[31m[1mCMake Error[0m at /home/amogh/rosws2/src/art_common/CMakeLists.txt:35 (include):
+  include could not find load file:
+
+    /cmake/cfgbuild.cmake
+
+
+[31m[1mCMake Error[0m at /home/amogh/rosws2/src/art_common/CMakeLists.txt:36 (gencfg):
+  Unknown CMake command "gencfg".
+
+

@@ -1,0 +1,4 @@
+CMake Error: Error in cmake code at
+/home/amogh/rosws2/src/art_map/CMakeLists.txt:36:
+Parse error.  Expected "(", got newline with text "
+".

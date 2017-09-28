@@ -1,0 +1,155 @@
+/home/amogh/rosws2/src/art_map/src/lib/FilteredPolygon.cc:2:28: fatal error: art_map/Matrix.h: No such file or directory
+ #include <art_map/Matrix.h>
+                            ^
+compilation terminated.
+/home/amogh/rosws2/src/art_map/src/lib/DrawLanes.cc:1:31: fatal error: art_map/DrawLanes.h: No such file or directory
+ #include <art_map/DrawLanes.h>
+                               ^
+compilation terminated.
+/home/amogh/rosws2/src/art_map/src/lib/gaussian.cc:8:30: fatal error: art_map/gaussian.h: No such file or directory
+ #include <art_map/gaussian.h>
+                              ^
+compilation terminated.
+make[2]: *** [src/lib/CMakeFiles/artmap.dir/DrawLanes.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [src/lib/CMakeFiles/artmap.dir/FilteredPolygon.cc.o] Error 1
+CMakeFiles/getpoints.dir/getpoints.cc.o: In function `main':
+getpoints.cc:(.text+0x118): undefined reference to `ros::init(int&, char**, std::string const&, unsigned int)'
+getpoints.cc:(.text+0x174): undefined reference to `ros::NodeHandle::NodeHandle(std::string const&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > const&)'
+getpoints.cc:(.text+0x277): undefined reference to `ros::Subscriber::~Subscriber()'
+getpoints.cc:(.text+0x29c): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0x2ac): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0x301): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0x342): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0x34c): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0x39d): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0x3a4): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0x3b4): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0x409): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0x44a): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0x454): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0x4a5): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0x4ac): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0x4bc): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0x511): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0x552): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0x55c): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0x5ad): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0x5b4): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0x5c4): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0x619): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0x65a): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0x664): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0x6b5): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0x6bc): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0x6cc): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0x721): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0x762): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0x76c): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0x7bd): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0x7c4): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0x7d4): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0x829): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0x86a): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0x874): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0x8c5): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0x8d9): undefined reference to `ros::AsyncSpinner::AsyncSpinner(unsigned int)'
+getpoints.cc:(.text+0x8e8): undefined reference to `ros::AsyncSpinner::start()'
+getpoints.cc:(.text+0x913): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0x923): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0x978): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0x9b9): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0x9c3): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0xa14): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0xae3): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0xaf3): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0xb48): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0xb89): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0xb93): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0xbe4): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0xc3a): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0xc4a): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0xc9f): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0xce0): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0xcea): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0xd45): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0xd91): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0xda1): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0xdf6): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0xe37): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0xe41): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0xebd): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0xee8): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0xef8): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0xf4d): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0xf8e): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0xf98): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0xfe9): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0x1035): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0x1045): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0x109a): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0x10db): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0x10e5): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0x1161): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0x118c): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0x119c): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0x11f1): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0x1232): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0x123c): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0x128d): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0x12d9): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0x12e9): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0x133e): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0x137f): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0x1389): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0x1405): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0x1449): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0x1459): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0x14ae): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0x14ef): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0x14f9): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0x154a): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0x1574): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text+0x1584): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text+0x15d9): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text+0x161a): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text+0x1624): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text+0x1675): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+getpoints.cc:(.text+0x16a9): undefined reference to `ros::ok()'
+getpoints.cc:(.text+0x16d9): undefined reference to `ros::AsyncSpinner::stop()'
+getpoints.cc:(.text+0x171a): undefined reference to `ros::NodeHandle::~NodeHandle()'
+getpoints.cc:(.text+0x1778): undefined reference to `ros::NodeHandle::~NodeHandle()'
+getpoints.cc:(.text+0x17a9): undefined reference to `ros::NodeHandle::~NodeHandle()'
+getpoints.cc:(.text+0x17f4): undefined reference to `ros::Subscriber::~Subscriber()'
+getpoints.cc:(.text+0x1aff): undefined reference to `ros::NodeHandle::~NodeHandle()'
+CMakeFiles/getpoints.dir/getpoints.cc.o: In function `__static_initialization_and_destruction_0(int, int)':
+getpoints.cc:(.text+0x1bb6): undefined reference to `boost::system::generic_category()'
+getpoints.cc:(.text+0x1bc2): undefined reference to `boost::system::generic_category()'
+getpoints.cc:(.text+0x1bce): undefined reference to `boost::system::system_category()'
+getpoints.cc:(.text+0x1bee): undefined reference to `ros::Subscriber::~Subscriber()'
+CMakeFiles/getpoints.dir/getpoints.cc.o: In function `boost::thread_exception::thread_exception(int, char const*)':
+getpoints.cc:(.text._ZN5boost16thread_exceptionC2EiPKc[_ZN5boost16thread_exceptionC5EiPKc]+0x14): undefined reference to `boost::system::system_category()'
+CMakeFiles/getpoints.dir/getpoints.cc.o: In function `ros::Subscriber ros::NodeHandle::subscribe<art_msgs::GpsInfo_<std::allocator<void> > const&>(std::string const&, unsigned int, void (*)(art_msgs::GpsInfo_<std::allocator<void> > const&), ros::TransportHints const&)':
+getpoints.cc:(.text._ZN3ros10NodeHandle9subscribeIRKN8art_msgs8GpsInfo_ISaIvEEEEENS_10SubscriberERKSsjPFvT_ERKNS_14TransportHintsE[_ZN3ros10NodeHandle9subscribeIRKN8art_msgs8GpsInfo_ISaIvEEEEENS_10SubscriberERKSsjPFvT_ERKNS_14TransportHintsE]+0xfd): undefined reference to `ros::NodeHandle::subscribe(ros::SubscribeOptions&)'
+CMakeFiles/getpoints.dir/getpoints.cc.o: In function `ros::SubscriptionCallbackHelperT<art_msgs::GpsInfo_<std::allocator<void> > const&, void>::deserialize(ros::SubscriptionCallbackHelperDeserializeParams const&)':
+getpoints.cc:(.text._ZN3ros27SubscriptionCallbackHelperTIRKN8art_msgs8GpsInfo_ISaIvEEEvE11deserializeERKNS_43SubscriptionCallbackHelperDeserializeParamsE[_ZN3ros27SubscriptionCallbackHelperTIRKN8art_msgs8GpsInfo_ISaIvEEEvE11deserializeERKNS_43SubscriptionCallbackHelperDeserializeParamsE]+0x49): undefined reference to `ros::console::g_initialized'
+getpoints.cc:(.text._ZN3ros27SubscriptionCallbackHelperTIRKN8art_msgs8GpsInfo_ISaIvEEEvE11deserializeERKNS_43SubscriptionCallbackHelperDeserializeParamsE[_ZN3ros27SubscriptionCallbackHelperTIRKN8art_msgs8GpsInfo_ISaIvEEEvE11deserializeERKNS_43SubscriptionCallbackHelperDeserializeParamsE]+0x59): undefined reference to `ros::console::initialize()'
+getpoints.cc:(.text._ZN3ros27SubscriptionCallbackHelperTIRKN8art_msgs8GpsInfo_ISaIvEEEvE11deserializeERKNS_43SubscriptionCallbackHelperDeserializeParamsE[_ZN3ros27SubscriptionCallbackHelperTIRKN8art_msgs8GpsInfo_ISaIvEEEvE11deserializeERKNS_43SubscriptionCallbackHelperDeserializeParamsE]+0xa2): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+getpoints.cc:(.text._ZN3ros27SubscriptionCallbackHelperTIRKN8art_msgs8GpsInfo_ISaIvEEEvE11deserializeERKNS_43SubscriptionCallbackHelperDeserializeParamsE[_ZN3ros27SubscriptionCallbackHelperTIRKN8art_msgs8GpsInfo_ISaIvEEEvE11deserializeERKNS_43SubscriptionCallbackHelperDeserializeParamsE]+0xdc): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+getpoints.cc:(.text._ZN3ros27SubscriptionCallbackHelperTIRKN8art_msgs8GpsInfo_ISaIvEEEvE11deserializeERKNS_43SubscriptionCallbackHelperDeserializeParamsE[_ZN3ros27SubscriptionCallbackHelperTIRKN8art_msgs8GpsInfo_ISaIvEEEvE11deserializeERKNS_43SubscriptionCallbackHelperDeserializeParamsE]+0xe6): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+getpoints.cc:(.text._ZN3ros27SubscriptionCallbackHelperTIRKN8art_msgs8GpsInfo_ISaIvEEEvE11deserializeERKNS_43SubscriptionCallbackHelperDeserializeParamsE[_ZN3ros27SubscriptionCallbackHelperTIRKN8art_msgs8GpsInfo_ISaIvEEEvE11deserializeERKNS_43SubscriptionCallbackHelperDeserializeParamsE]+0x152): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+CMakeFiles/getpoints.dir/getpoints.cc.o: In function `void ros::serialization::Serializer<double>::read<ros::serialization::IStream>(ros::serialization::IStream&, double&)':
+getpoints.cc:(.text._ZN3ros13serialization10SerializerIdE4readINS0_7IStreamEEEvRT_Rd[_ZN3ros13serialization10SerializerIdE4readINS0_7IStreamEEEvRT_Rd]+0x53): undefined reference to `ros::serialization::throwStreamOverrun()'
+CMakeFiles/getpoints.dir/getpoints.cc.o: In function `void ros::serialization::Serializer<std::string>::read<ros::serialization::IStream>(ros::serialization::IStream&, std::string&)':
+getpoints.cc:(.text._ZN3ros13serialization10SerializerISsE4readINS0_7IStreamEEEvRT_RSs[_ZN3ros13serialization10SerializerISsE4readINS0_7IStreamEEEvRT_RSs]+0x8a): undefined reference to `ros::serialization::throwStreamOverrun()'
+CMakeFiles/getpoints.dir/getpoints.cc.o: In function `void ros::serialization::Serializer<unsigned short>::read<ros::serialization::IStream>(ros::serialization::IStream&, unsigned short&)':
+getpoints.cc:(.text._ZN3ros13serialization10SerializerItE4readINS0_7IStreamEEEvRT_Rt[_ZN3ros13serialization10SerializerItE4readINS0_7IStreamEEEvRT_Rt]+0x53): undefined reference to `ros::serialization::throwStreamOverrun()'
+CMakeFiles/getpoints.dir/getpoints.cc.o: In function `void ros::serialization::Serializer<unsigned int>::read<ros::serialization::IStream>(ros::serialization::IStream&, unsigned int&)':
+getpoints.cc:(.text._ZN3ros13serialization10SerializerIjE4readINS0_7IStreamEEEvRT_Rj[_ZN3ros13serialization10SerializerIjE4readINS0_7IStreamEEEvRT_Rj]+0x53): undefined reference to `ros::serialization::throwStreamOverrun()'
+make[2]: *** [src/lib/CMakeFiles/artmap.dir/gaussian.cc.o] Error 1
+make[1]: *** [src/lib/CMakeFiles/artmap.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/amogh/rosws2/src/art_map/bin/getpoints] Error 1
+make[1]: *** [src/node/CMakeFiles/getpoints.dir/all] Error 2
+make: *** [all] Error 2

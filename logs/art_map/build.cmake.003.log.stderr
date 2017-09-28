@@ -1,0 +1,4 @@
+[31m[1mCMake Error[0m at /home/amogh/rosws2/src/art_map/src/lib/CMakeLists.txt:1 (rosbuild_add_library):
+  Unknown CMake command "rosbuild_add_library".
+
+

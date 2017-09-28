@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/amogh/rosws2/src/art_map/src/node/CMakeLists.txt:3 (add_dependencies):
+  add_dependencies called with incorrect number of arguments
+
+
+make: *** [cmake_check_build_system] Error 1

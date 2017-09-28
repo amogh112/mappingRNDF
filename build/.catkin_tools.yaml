@@ -1,0 +1,6 @@
+devel_space: /home/amogh/rosws2/devel
+install: false
+install_space: /home/amogh/rosws2/install
+profile: default
+source_space: /home/amogh/rosws2/src
+workspace: /home/amogh/rosws2

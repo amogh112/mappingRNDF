@@ -1,0 +1,1 @@
+/home/amogh/rosws2/devel/.private/art_common/share/art_common/cmake/art_commonConfig-version.cmake

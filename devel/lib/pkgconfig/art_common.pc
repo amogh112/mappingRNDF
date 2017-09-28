@@ -1,0 +1,1 @@
+/home/amogh/rosws2/devel/.private/art_common/lib/pkgconfig/art_common.pc

@@ -1,0 +1,76 @@
+/home/amogh/rosws2/src/art_common/src/vehicle_configurable_tf.cc:18:46: fatal error: art_common/CameraTransformConfig.h: No such file or directory
+ #include <art_common/CameraTransformConfig.h>
+                                              ^
+compilation terminated.
+CMakeFiles/vehicle_static_tf.dir/src/vehicle_static_tf.cc.o: In function `tf::quaternionTFToMsg(tf::Quaternion const&, geometry_msgs::Quaternion_<std::allocator<void> >&)':
+vehicle_static_tf.cc:(.text+0x44b): undefined reference to `ros::console::g_initialized'
+vehicle_static_tf.cc:(.text+0x45b): undefined reference to `ros::console::initialize()'
+vehicle_static_tf.cc:(.text+0x4a4): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+vehicle_static_tf.cc:(.text+0x4df): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+vehicle_static_tf.cc:(.text+0x4e9): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+vehicle_static_tf.cc:(.text+0x534): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+CMakeFiles/vehicle_static_tf.dir/src/vehicle_static_tf.cc.o: In function `broadcastTF(tf::TransformBroadcaster*, std::string, double, double, double, double, double, double)':
+vehicle_static_tf.cc:(.text+0x712): undefined reference to `ros::Time::now()'
+vehicle_static_tf.cc:(.text+0x730): undefined reference to `ros::TimeBase<ros::Time, ros::Duration>::operator+(ros::Duration const&) const'
+vehicle_static_tf.cc:(.text+0x889): undefined reference to `tf::TransformBroadcaster::sendTransform(geometry_msgs::TransformStamped_<std::allocator<void> > const&)'
+CMakeFiles/vehicle_static_tf.dir/src/vehicle_static_tf.cc.o: In function `opticalTF(tf::TransformBroadcaster*, std::string, double, double, double, double, double, double)':
+vehicle_static_tf.cc:(.text+0xa40): undefined reference to `ros::Time::now()'
+vehicle_static_tf.cc:(.text+0xa5e): undefined reference to `ros::TimeBase<ros::Time, ros::Duration>::operator+(ros::Duration const&) const'
+vehicle_static_tf.cc:(.text+0xba9): undefined reference to `tf::TransformBroadcaster::sendTransform(geometry_msgs::TransformStamped_<std::allocator<void> > const&)'
+CMakeFiles/vehicle_static_tf.dir/src/vehicle_static_tf.cc.o: In function `main':
+vehicle_static_tf.cc:(.text+0xcbe): undefined reference to `ros::init(int&, char**, std::string const&, unsigned int)'
+vehicle_static_tf.cc:(.text+0xd1a): undefined reference to `ros::NodeHandle::NodeHandle(std::string const&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > const&)'
+vehicle_static_tf.cc:(.text+0xd47): undefined reference to `tf::TransformBroadcaster::TransformBroadcaster()'
+vehicle_static_tf.cc:(.text+0xd79): undefined reference to `ros::Rate::Rate(double)'
+vehicle_static_tf.cc:(.text+0xd80): undefined reference to `ros::console::g_initialized'
+vehicle_static_tf.cc:(.text+0xd90): undefined reference to `ros::console::initialize()'
+vehicle_static_tf.cc:(.text+0xde5): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+vehicle_static_tf.cc:(.text+0xe26): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+vehicle_static_tf.cc:(.text+0xe30): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+vehicle_static_tf.cc:(.text+0xe81): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+vehicle_static_tf.cc:(.text+0x12ae): undefined reference to `ros::spinOnce()'
+vehicle_static_tf.cc:(.text+0x12bd): undefined reference to `ros::Rate::sleep()'
+vehicle_static_tf.cc:(.text+0x12c2): undefined reference to `ros::ok()'
+vehicle_static_tf.cc:(.text+0x12d1): undefined reference to `ros::console::g_initialized'
+vehicle_static_tf.cc:(.text+0x12e1): undefined reference to `ros::console::initialize()'
+vehicle_static_tf.cc:(.text+0x1336): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+vehicle_static_tf.cc:(.text+0x1377): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+vehicle_static_tf.cc:(.text+0x1381): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+vehicle_static_tf.cc:(.text+0x13d2): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+vehicle_static_tf.cc:(.text+0x1404): undefined reference to `ros::NodeHandle::~NodeHandle()'
+vehicle_static_tf.cc:(.text+0x1462): undefined reference to `ros::NodeHandle::~NodeHandle()'
+vehicle_static_tf.cc:(.text+0x1493): undefined reference to `ros::NodeHandle::~NodeHandle()'
+vehicle_static_tf.cc:(.text+0x15a6): undefined reference to `ros::NodeHandle::~NodeHandle()'
+CMakeFiles/vehicle_static_tf.dir/src/vehicle_static_tf.cc.o: In function `__static_initialization_and_destruction_0(int, int)':
+vehicle_static_tf.cc:(.text+0x165e): undefined reference to `boost::system::generic_category()'
+vehicle_static_tf.cc:(.text+0x166a): undefined reference to `boost::system::generic_category()'
+vehicle_static_tf.cc:(.text+0x1676): undefined reference to `boost::system::system_category()'
+CMakeFiles/vehicle_static_tf.dir/src/vehicle_static_tf.cc.o: In function `ros::Duration::Duration(double)':
+vehicle_static_tf.cc:(.text._ZN3ros8DurationC2Ed[_ZN3ros8DurationC5Ed]+0x33): undefined reference to `ros::DurationBase<ros::Duration>::fromSec(double)'
+CMakeFiles/vehicle_static_tf.dir/src/vehicle_static_tf.cc.o: In function `ArtFrames::VehicleRelative::getPrefixParam()':
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0x68): undefined reference to `ros::NodeHandle::NodeHandle(std::string const&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > const&)'
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0xee): undefined reference to `ros::NodeHandle::searchParam(std::string const&, std::string&) const'
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0x136): undefined reference to `ros::NodeHandle::getParam(std::string const&, std::string&) const'
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0x13d): undefined reference to `ros::console::g_initialized'
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0x14d): undefined reference to `ros::console::initialize()'
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0x1a2): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::string const&, ros::console::levels::Level)'
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0x1e3): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0x1ed): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0x28b): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > const&, char const*, int, char const*)'
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0x2b8): undefined reference to `ros::NodeHandle::~NodeHandle()'
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0x2e3): undefined reference to `ros::NodeHandle::~NodeHandle()'
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0x323): undefined reference to `ros::NodeHandle::~NodeHandle()'
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative14getPrefixParamEv[_ZN9ArtFrames15VehicleRelative14getPrefixParamEv]+0x3b8): undefined reference to `ros::NodeHandle::~NodeHandle()'
+CMakeFiles/vehicle_static_tf.dir/src/vehicle_static_tf.cc.o: In function `ArtFrames::VehicleRelative::getFrame(std::string)':
+vehicle_static_tf.cc:(.text._ZN9ArtFrames15VehicleRelative8getFrameESs[_ZN9ArtFrames15VehicleRelative8getFrameESs]+0x27): undefined reference to `tf::resolve(std::string const&, std::string const&)'
+CMakeFiles/vehicle_static_tf.dir/src/vehicle_static_tf.cc.o: In function `tf2_ros::TransformBroadcaster::~TransformBroadcaster()':
+vehicle_static_tf.cc:(.text._ZN7tf2_ros20TransformBroadcasterD2Ev[_ZN7tf2_ros20TransformBroadcasterD5Ev]+0x1b): undefined reference to `ros::Publisher::~Publisher()'
+vehicle_static_tf.cc:(.text._ZN7tf2_ros20TransformBroadcasterD2Ev[_ZN7tf2_ros20TransformBroadcasterD5Ev]+0x27): undefined reference to `ros::NodeHandle::~NodeHandle()'
+vehicle_static_tf.cc:(.text._ZN7tf2_ros20TransformBroadcasterD2Ev[_ZN7tf2_ros20TransformBroadcasterD5Ev]+0x38): undefined reference to `ros::NodeHandle::~NodeHandle()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/amogh/rosws2/src/art_common/bin/vehicle_static_tf] Error 1
+make[1]: *** [CMakeFiles/vehicle_static_tf.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/vehicle_configurable_tf.dir/src/vehicle_configurable_tf.cc.o] Error 1
+make[1]: *** [CMakeFiles/vehicle_configurable_tf.dir/all] Error 2
+make: *** [all] Error 2

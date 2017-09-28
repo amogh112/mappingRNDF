@@ -1,0 +1,8 @@
+[31m[1mCMake Error[0m at /home/amogh/rosws2/src/art_map/CMakeLists.txt:48 (add_library):
+  add_library cannot create target "art_map" because another target with the
+  same name already exists.  The existing target is a shared library created
+  in source directory "/home/amogh/rosws2/src/art_map".  See documentation
+  for policy CMP0002 for more details.
+
+
+make: *** [cmake_check_build_system] Error 1

@@ -1,0 +1,66 @@
+[  0%] [  0%] Built target roscpp_generate_messages_lisp
+Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_cpp
+[  6%] [32mBuilding CXX object CMakeFiles/art_map.dir/src/FilteredPolygon.cc.o
+[0m[  6%] [  6%] Built target nav_msgs_generate_messages_py
+Built target nav_msgs_generate_messages_cpp
+[  6%] Built target geometry_msgs_generate_messages_cpp
+[ 12%] [32mBuilding CXX object CMakeFiles/art_map.dir/src/Graph.cc.o
+[0m[ 12%] Built target geometry_msgs_generate_messages_lisp
+[ 12%] Built target visualization_msgs_generate_messages_cpp
+[ 12%] Built target geometry_msgs_generate_messages_py
+[ 12%] Built target std_msgs_generate_messages_py
+[ 12%] Built target sensor_msgs_generate_messages_cpp
+/home/amogh/rosws2/src/art_map/src/Graph.cc:9:21: fatal error: art/UTM.h: No such file or directory
+ #include <art/UTM.h>
+                     ^
+compilation terminated.
+[ 12%] Built target tf_generate_messages_lisp
+[ 12%] Built target actionlib_msgs_generate_messages_py
+[ 12%] Built target roscpp_generate_messages_py
+[ 12%] Built target sensor_msgs_generate_messages_py
+[ 12%] Built target std_msgs_generate_messages_lisp
+[ 12%] Built target std_msgs_generate_messages_cpp
+[ 12%] Built target nav_msgs_generate_messages_lisp
+[ 12%] Built target actionlib_msgs_generate_messages_cpp
+[ 18%] [ 18%] Built target actionlib_msgs_generate_messages_lisp
+[32mBuilding CXX object CMakeFiles/art_map.dir/src/KF.cc.o
+[0m[ 18%] Built target rosgraph_msgs_generate_messages_cpp
+[ 18%] Built target roscpp_generate_messages_cpp
+make[2]: *** [CMakeFiles/art_map.dir/src/Graph.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[ 18%] Built target sensor_msgs_generate_messages_lisp
+/home/amogh/rosws2/src/art_map/src/KF.cc:6:29: fatal error: art/conversions.h: No such file or directory
+ #include <art/conversions.h>
+                             ^
+compilation terminated.
+[ 18%] Built target tf_generate_messages_py
+[ 18%] Built target rosgraph_msgs_generate_messages_py
+[ 18%] Built target rosgraph_msgs_generate_messages_lisp
+[ 18%] Built target visualization_msgs_generate_messages_py
+[ 18%] Built target actionlib_generate_messages_cpp
+[ 18%] Built target actionlib_generate_messages_lisp
+[ 18%] Built target actionlib_generate_messages_py
+[ 18%] Built target tf2_msgs_generate_messages_cpp
+[ 18%] Built target tf2_msgs_generate_messages_lisp
+[ 18%] Built target tf2_msgs_generate_messages_py
+[ 25%] [32mBuilding CXX object CMakeFiles/artmap.dir/src/DrawLanes.cc.o
+make[2]: *** [CMakeFiles/art_map.dir/src/KF.cc.o] Error 1
+In file included from /home/amogh/rosws2/src/art_map/src/DrawLanes.cc:2:0:
+/home/amogh/rosws2/src/art_map/include/art_map/euclidean_distance.h:20:25: fatal error: art/epsilon.h: No such file or directory
+ #include <art/epsilon.h>
+                         ^
+compilation terminated.
+make[2]: *** [CMakeFiles/artmap.dir/src/DrawLanes.cc.o] Error 1
+make[1]: *** [CMakeFiles/artmap.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from /home/amogh/rosws2/src/art_map/include/art_map/PolyOps.h:30:0,
+                 from /home/amogh/rosws2/src/art_map/include/art_map/FilteredPolygon.h:11,
+                 from /home/amogh/rosws2/src/art_map/src/FilteredPolygon.cc:3:
+/home/amogh/rosws2/src/art_map/include/art_map/coordinates.h:31:29: fatal error: art/conversions.h: No such file or directory
+ #include <art/conversions.h>
+                             ^
+compilation terminated.
+make[2]: *** [CMakeFiles/art_map.dir/src/FilteredPolygon.cc.o] Error 1
+make[1]: *** [CMakeFiles/art_map.dir/all] Error 2
+make: *** [all] Error 2

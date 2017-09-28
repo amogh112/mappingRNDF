@@ -1,0 +1,4 @@
+CMake Error: Error in cmake code at
+/home/amogh/rosws2/src/art_map/src/node/CMakeLists.txt:11:
+Parse error.  Function missing ending ")".  End of file reached.
+make: *** [cmake_check_build_system] Error 1

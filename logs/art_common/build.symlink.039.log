@@ -1,0 +1,12 @@
+Symlinking /home/amogh/rosws2/devel/lib/pkgconfig/art_common.pc
+Symlinking /home/amogh/rosws2/devel/lib/art_common/vehicle_static_tf
+Symlinking /home/amogh/rosws2/devel/lib/art_common/vehicle_configurable_tf
+Symlinking /home/amogh/rosws2/devel/lib/python2.7/dist-packages/art_common/__init__.py
+Symlinking /home/amogh/rosws2/devel/lib/python2.7/dist-packages/art_common/cfg/CameraTransformConfig.py
+Symlinking /home/amogh/rosws2/devel/lib/python2.7/dist-packages/art_common/cfg/__init__.py
+Symlinking /home/amogh/rosws2/devel/include/art_common/CameraTransformConfig.h
+Symlinking /home/amogh/rosws2/devel/share/art_common/docs/CameraTransformConfig.wikidoc
+Symlinking /home/amogh/rosws2/devel/share/art_common/docs/CameraTransformConfig-usage.dox
+Symlinking /home/amogh/rosws2/devel/share/art_common/docs/CameraTransformConfig.dox
+Symlinking /home/amogh/rosws2/devel/share/art_common/cmake/art_commonConfig.cmake
+Symlinking /home/amogh/rosws2/devel/share/art_common/cmake/art_commonConfig-version.cmake

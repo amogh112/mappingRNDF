@@ -1,0 +1,14 @@
+/home/amogh/rosws2/src/art_common/src/vehicle_static_tf.cc:13:24: fatal error: art/frames.h: No such file or directory
+ #include <art/frames.h>
+                        ^
+compilation terminated.
+/home/amogh/rosws2/src/art_common/src/vehicle_configurable_tf.cc:13:24: fatal error: art/frames.h: No such file or directory
+ #include <art/frames.h>
+                        ^
+compilation terminated.
+make[2]: *** [CMakeFiles/vehicle_configurable_tf.dir/src/vehicle_configurable_tf.cc.o] Error 1
+make[1]: *** [CMakeFiles/vehicle_configurable_tf.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/vehicle_static_tf.dir/src/vehicle_static_tf.cc.o] Error 1
+make[1]: *** [CMakeFiles/vehicle_static_tf.dir/all] Error 2
+make: *** [all] Error 2

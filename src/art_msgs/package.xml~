@@ -1,0 +1,29 @@
+<package>
+  <name>art_msgs</name>
+  <description brief="ART vehicle messages">
+
+     This package defines messages specific to ART autonomous vehicle.
+
+  </description>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+  <review status="experimental" notes=""/>
+  <url>http://ros.org/wiki/art_msgs</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  
+  
+  
+  <export>
+    <!--cpp cflags="-I${prefix}/include" /-->
+    <!--rosbag migration_rule_file="migration_rules/art_msgs.bmr"/-->
+  </export>
+
+</package>
+
+

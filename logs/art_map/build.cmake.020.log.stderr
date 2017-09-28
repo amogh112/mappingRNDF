@@ -1,0 +1,10 @@
+[31m[1mCMake Error[0m at /home/amogh/rosws2/devel/share/art_common/cmake/art_commonConfig.cmake:141 (message):
+  Project 'art_map' tried to find library 'art_common_LIBRARIES'.  The
+  library is neither a target nor built/installed properly.  Did you compile
+  project 'art_common'? Did you find_package() it before the subdirectory
+  containing its code is included?
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:5 (find_package)
+
+

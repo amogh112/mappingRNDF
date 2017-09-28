@@ -1,0 +1,10 @@
+[31m[1mCMake Error[0m at /home/amogh/rosws2/src/art_map/CMakeLists.txt:33 (add_library):
+  Cannot find source file:
+
+    FilteredPolygon.cc
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+make: *** [cmake_check_build_system] Error 1

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+  <name>art_common</name>
+  <version>1.0.0</version>
+  <description>
+
+     Common headers and utilities for the Austin Robot Technology
+     automomous vehicle.
+
+  </description>
+  <maintainer email="amogh@todo.todo">amogh</maintainer>
+  <author>Austin Robot Technology</author>
+  <license>TODO</license>
+  <!-- <review status="experimental" notes=""/> -->
+  <!-- <url>http://www.ros.org/wiki/art_common</url> -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>angles</build_depend>
+  <build_depend>art_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <run_depend>angles</run_depend>
+  <run_depend>art_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+  <!-- <test_depend>angles</test_depend> -->
+  <!-- <test_depend>art_msgs</test_depend> -->
+  <!-- <test_depend>roscpp</test_depend> -->
+  <!-- <test_depend>tf</test_depend> -->
+  <!-- <test_depend>dynamic_reconfigure</test_depend> -->
+  <!--exec_depend>message_runtime</exec_depend-->
+  <export>
+    <!-- <cpp cflags="-I${prefix}/include"/> -->
+  </export>
+
+</package>
