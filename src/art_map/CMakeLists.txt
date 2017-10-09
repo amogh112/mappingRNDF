@@ -6,7 +6,7 @@ find_package(catkin REQUIRED COMPONENTS angles geometry_msgs nav_msgs roscpp sen
 #find_package(art_common REQUIRED)
 #include_directories(${art_common_INCLUDE_DIRS} )
 find_package(Boost REQUIRED COMPONENTS thread)
-include_directories(include ${Boost_INCLUDE_DIR} ${catkin_INCLUDE_DIRS} ${art_common_INCLUDE_DIRS})
+include_directories(include ${Boost_INCLUDE_DIR} ${catkin_INCLUDE_DIRS})
 
 #set the default path for built executables to the "bin" directory
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
