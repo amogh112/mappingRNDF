@@ -19,7 +19,7 @@ catkin_package(
     DEPENDS
     CATKIN_DEPENDS art_msgs
     INCLUDE_DIRS include
-    LIBRARIES art_common_LIBRARIES
+    LIBRARIES
 )             
 include_directories( ${catkin_INCLUDE_DIRS}
   ${dynamic_reconfigure_PACKAGE_PATH}/cmake/cfgbuild.cmake
@@ -40,4 +40,7 @@ add_executable(vehicle_static_tf src/vehicle_static_tf.cc)
 target_link_libraries(vehicle_static_tf ${catkin_LIBRARIES})
 add_dependencies(vehicle_static_tf ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS} ${catkin_LIBRARIES} ${PROJECT_NAME}_gencfg)
 
-
+install(DIRECTORY include/art/
+  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+  FILES_MATCHING PATTERN "*.h"
+  PATTERN ".svn" EXCLUDE)

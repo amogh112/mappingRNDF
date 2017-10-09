@@ -1,0 +1,8 @@
+prefix=/home/amogh/rosws2/install
+
+Name: art_map
+Description: Description of art_map
+Version: 1.0.0
+Cflags: -I/home/amogh/rosws2/install/include
+Libs: -L/home/amogh/rosws2/install/lib 
+Requires: angles art_common art_msgs geometry_msgs nav_msgs roscpp sensor_msgs tf visualization_msgs

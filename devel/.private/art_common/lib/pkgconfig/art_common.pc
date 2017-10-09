@@ -4,5 +4,5 @@ Name: art_common
 Description: Description of art_common
 Version: 1.0.0
 Cflags: -I/home/amogh/rosws2/devel/.private/art_common/include -I/home/amogh/rosws2/src/art_common/include
-Libs: -L/home/amogh/rosws2/devel/.private/art_common/lib -lart_common_LIBRARIES
+Libs: -L/home/amogh/rosws2/devel/.private/art_common/lib 
 Requires: art_msgs

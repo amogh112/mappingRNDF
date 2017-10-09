@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/amogh/rosws2/devel/.private/art_map:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/amogh/rosws2/devel/.private/art_map/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/amogh/rosws2/devel/.private/art_map/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/amogh/rosws2/build/art_map"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/amogh/rosws2/devel/.private/art_map/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/amogh/rosws2/src/art_map:$ROS_PACKAGE_PATH"

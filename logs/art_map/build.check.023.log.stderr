@@ -1,0 +1,31 @@
+[33m[1mCMake Warning[0m at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package):
+  Could not find a package configuration file provided by "art_msgs" with any
+  of the following names:
+
+    art_msgsConfig.cmake
+    art_msgs-config.cmake
+
+  Add the installation prefix of "art_msgs" to CMAKE_PREFIX_PATH or set
+  "art_msgs_DIR" to a directory containing one of the above files.  If
+  "art_msgs" provides a separate development package or SDK, be sure it has
+  been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:5 (find_package)
+
+
+[31m[1mCMake Error[0m at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "art_msgs" with any
+  of the following names:
+
+    art_msgsConfig.cmake
+    art_msgs-config.cmake
+
+  Add the installation prefix of "art_msgs" to CMAKE_PREFIX_PATH or set
+  "art_msgs_DIR" to a directory containing one of the above files.  If
+  "art_msgs" provides a separate development package or SDK, be sure it has
+  been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:5 (find_package)
+
+
+make: *** [cmake_check_build_system] Error 1

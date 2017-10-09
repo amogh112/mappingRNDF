@@ -1,5 +1,0 @@
-Not searching for unused variables given on the command line.
-CMake Error: Error in cmake code at
-/home/amogh/rosws2/src/art_map/CMakeLists.txt:66:
-Parse error.  Function missing ending ")".  End of file reached.
-[36m--[0m Configuring incomplete, errors occurred!

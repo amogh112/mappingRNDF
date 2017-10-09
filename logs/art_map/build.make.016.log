@@ -1,0 +1,109 @@
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target art_map
+[0m[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py
+[0m[0m[  0%] [  0%] [  0%] Built target std_msgs_generate_messages_py
+Built target nav_msgs_generate_messages_cpp
+Built target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_cpp
+[0m[0m[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp
+[  0%] [0m[  0%] Built target sensor_msgs_generate_messages_lisp
+Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp
+[0m[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp
+[  0%] [0mBuilt target nav_msgs_generate_messages_lisp
+[  0%] [  0%] Built target geometry_msgs_generate_messages_lisp
+Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py
+[0m[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py
+[0m[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp
+[  0%] [0m[  0%] Built target geometry_msgs_generate_messages_py
+Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp
+[0m[0m[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[0m[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] [  0%] Built target std_msgs_generate_messages_lisp
+Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py
+[0m[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py
+[0m[0m[  0%] Built target nav_msgs_generate_messages_py
+[  0%] [  0%] Built target actionlib_msgs_generate_messages_py
+Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp
+[0m[35m[1mScanning dependencies of target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_py
+[0m[0m[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] [  0%] Built target tf_generate_messages_py
+Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp
+[0m[35m[1mScanning dependencies of target roscpp_generate_messages_py
+[0m[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[0m[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp
+[0m[35m[1mScanning dependencies of target roscpp_generate_messages_cpp
+[0m[  0%] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp
+[0mBuilt target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_lisp
+[  0%] [0mBuilt target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp
+[0m[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py
+[0m[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] [35m[1mScanning dependencies of target actionlib_generate_messages_py
+Built target visualization_msgs_generate_messages_py
+[0m[0m[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp
+[0m[0m[  5%] [  5%] [  5%] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py
+Built target tf2_msgs_generate_messages_cpp
+Built target tf2_msgs_generate_messages_lisp
+[0m[32mBuilding CXX object CMakeFiles/art_map.dir/src/FilteredPolygon.cc.o
+[0m[ 11%] [ 17%] [ 17%] Built target tf2_msgs_generate_messages_py
+[32mBuilding CXX object CMakeFiles/art_map.dir/src/DrawLanes.cc.o
+[0m[32mBuilding CXX object CMakeFiles/art_map.dir/src/gaussian.cc.o
+[0m[ 23%] [32mBuilding CXX object CMakeFiles/art_map.dir/src/Graph.cc.o
+In file included from /home/amogh/rosws2/src/art_map/src/DrawLanes.cc:2:0:
+/home/amogh/rosws2/src/art_map/include/art_map/euclidean_distance.h:20:25: fatal error: art/epsilon.h: No such file or directory
+ #include <art/epsilon.h>
+                         ^
+compilation terminated.
+/home/amogh/rosws2/src/art_map/src/Graph.cc:9:21: fatal error: art/UTM.h: No such file or directory
+ #include <art/UTM.h>
+                     ^
+compilation terminated.
+[0m[ 29%] [32mBuilding CXX object CMakeFiles/art_map.dir/src/KF.cc.o
+make[2]: *** [CMakeFiles/art_map.dir/src/DrawLanes.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+/home/amogh/rosws2/src/art_map/src/KF.cc:6:29: fatal error: art/conversions.h: No such file or directory
+ #include <art/conversions.h>
+                             ^
+compilation terminated.
+[0m[35m[1mScanning dependencies of target artmap
+[0m[ 35%] [32mBuilding CXX object CMakeFiles/artmap.dir/src/DrawLanes.cc.o
+make[2]: *** [CMakeFiles/art_map.dir/src/Graph.cc.o] Error 1
+In file included from /home/amogh/rosws2/src/art_map/src/DrawLanes.cc:2:0:
+/home/amogh/rosws2/src/art_map/include/art_map/euclidean_distance.h:20:25: fatal error: art/epsilon.h: No such file or directory
+ #include <art/epsilon.h>
+                         ^
+compilation terminated.
+make[2]: *** [CMakeFiles/art_map.dir/src/KF.cc.o] Error 1
+make[2]: *** [CMakeFiles/artmap.dir/src/DrawLanes.cc.o] Error 1
+make[1]: *** [CMakeFiles/artmap.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from /home/amogh/rosws2/src/art_map/include/art_map/PolyOps.h:30:0,
+                 from /home/amogh/rosws2/src/art_map/include/art_map/FilteredPolygon.h:11,
+                 from /home/amogh/rosws2/src/art_map/src/FilteredPolygon.cc:3:
+/home/amogh/rosws2/src/art_map/include/art_map/coordinates.h:31:29: fatal error: art/conversions.h: No such file or directory
+ #include <art/conversions.h>
+                             ^
+compilation terminated.
+make[2]: *** [CMakeFiles/art_map.dir/src/FilteredPolygon.cc.o] Error 1
+make[1]: *** [CMakeFiles/art_map.dir/all] Error 2
+make: *** [all] Error 2
